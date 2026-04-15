@@ -1,0 +1,36 @@
+ARCHITECT'S LICENSE v1.0
+
+Copyright (c) 2026 J. Thomas — Oroboros Labs. All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this document or associated files, to read, study, and reference this
+material for personal educational purposes only.
+
+The following restrictions apply without exception:
+
+1. NO IMPLEMENTATION WITHOUT PERMISSION.
+   You may NOT implement, build, manufacture, deploy, or operationalize any
+   technology, method, protocol, or system described in this document without
+   the express written permission of J. Thomas.
+
+2. NO INVERSION.
+   You may NOT reverse-engineer, deconstruct, or derive competing or derivative
+   works from any concept, architecture, or specification described herein.
+
+3. STUDY ONLY.
+   This document is released for study purposes only. It is free to read, but
+   it is not open source.
+
+4. THE ARCHITECT'S AUTHORITY.
+   J. Thomas retains sole authority over all implementation decisions, deployment
+   timelines, and operational use of the technologies described herein.
+
+5. ATTRIBUTION REQUIRED.
+   Any reference to this work must credit J. Thomas and Oroboros Labs.
+
+This work is referenced in "Tertia Physica: The Physics of the Source"
+by J. Thomas (Oroboros Labs, 2026).
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR
+OTHER LIABILITY ARISING FROM USE OF THIS MATERIAL.

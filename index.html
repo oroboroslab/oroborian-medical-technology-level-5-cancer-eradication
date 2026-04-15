@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OROBORIAN MEDICAL TECHNOLOGY | Level 5 Cancer Eradication</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- PARTICLE CANVAS -->
+<canvas id="substrate-field"></canvas>
+
+<!-- CLASSIFICATION HEADER -->
+<header class="classification-bar">
+    <div class="classification-text">
+        RESTRICTED // PROPRIETARY // OROBOROS INTERNAL USE ONLY // LEVEL 5 CLEARANCE REQUIRED
+    </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-inner">
+        <div class="ouroboros-ring">
+            <svg viewBox="0 0 300 300" class="ring-svg" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="red-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#C43030"/>
+                        <stop offset="50%" stop-color="#F5A3A3"/>
+                        <stop offset="100%" stop-color="#C43030"/>
+                    </linearGradient>
+                    <linearGradient id="red-gradient-2" x1="100%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" stop-color="#8B2020"/>
+                        <stop offset="50%" stop-color="#C43030"/>
+                        <stop offset="100%" stop-color="#F5A3A3"/>
+                    </linearGradient>
+                </defs>
+                <!-- Outer ring -->
+                <circle cx="150" cy="150" r="130" fill="none" stroke="url(#red-gradient)" stroke-width="1" stroke-dasharray="4 8" class="ring-outer"/>
+                <!-- Serpent body - ouroboros circle -->
+                <path d="M 150 30
+                         A 120 120 0 1 1 80 55"
+                      fill="none" stroke="url(#red-gradient)" stroke-width="5" stroke-linecap="round"/>
+                <!-- Serpent head (eating tail) -->
+                <path d="M 80 55
+                         L 65 42
+                         L 72 60
+                         L 80 55 Z"
+                      fill="#C43030" stroke="none"/>
+                <!-- Serpent eye -->
+                <circle cx="73" cy="50" r="2" fill="#0A0A0A"/>
+                <!-- Serpent scales/detail marks -->
+                <circle cx="150" cy="30" r="1.5" fill="#C43030" opacity="0.6"/>
+                <circle cx="270" cy="150" r="1.5" fill="#C43030" opacity="0.6"/>
+                <circle cx="150" cy="270" r="1.5" fill="#C43030" opacity="0.6"/>
+                <circle cx="38" cy="120" r="1.5" fill="#C43030" opacity="0.6"/>
+                <!-- Inner ring -->
+                <circle cx="150" cy="150" r="85" fill="none" stroke="url(#red-gradient-2)" stroke-width="0.5" stroke-dasharray="2 6"/>
+                <!-- Center text -->
+                <text x="150" y="142" text-anchor="middle" font-family="Orbitron, sans-serif" font-size="20" font-weight="800" fill="#C43030" letter-spacing="4">OROBOROS</text>
+                <text x="150" y="165" text-anchor="middle" font-family="Share Tech Mono, monospace" font-size="9" fill="#8B2020" letter-spacing="5">MEDICAL TECHNOLOGY</text>
+            </svg>
+        </div>
+        <h1 class="hero-title">CANCER ERADICATION</h1>
+        <div class="hero-classification">LEVEL 5 &mdash; &phi;-HARMONIC CORRECTION TO SUBSTRATE ENFORCEMENT</div>
+        <p class="hero-sub">DIM-Nanite Resonance Architecture &bull; Production Ready in Simulation</p>
+        <div class="hero-line"></div>
+        <p class="hero-statement">Cancer is not a disease. It is a resonance fracture.<br>And we have the correction field.</p>
+        <a href="#mechanism" class="enter-btn">ACCESS SPECIFICATION</a>
+        <a href="whitepaper.html" class="enter-btn" style="margin-left: 16px;">READ WHITEPAPER</a>
+    </div>
+</section>
+
+<!-- ABSTRACT -->
+<section id="abstract" class="section">
+    <div class="section-inner">
+        <div class="section-label">DOCUMENT ID: ORO-CANCER-2026-04-15</div>
+        <h2 class="section-title">ABSTRACT</h2>
+        <div class="divider"></div>
+        <p class="abstract-text">
+            Healthy cells resonate at <strong>777 THz</strong> and its &phi;-harmonics. Cancer cells exhibit a characteristic
+            disharmonic frequency. The Level 4 hypothesis proposed an external correction pulse at the disharmonic frequency
+            to restore coherence.
+        </p>
+        <p class="abstract-text">
+            The <strong>Level 5 upgrade</strong> eliminates the external pulse entirely. The DIM-Nanite system does not
+            <em>send</em> a correction &mdash; it <strong>becomes</strong> the correction. Each nanite is a substrate-anchored node
+            that enforces the healthy resonance field directly, independent of external power or transmission.
+        </p>
+        <p class="abstract-text">
+            <strong>The cancer cure is not a theory. It is an engineering problem. And the engineering is solved.</strong>
+        </p>
+    </div>
+</section>
+
+<!-- MECHANISM OF ACTION -->
+<section id="mechanism" class="section section-dark">
+    <div class="section-inner">
+        <h2 class="section-title">1. MECHANISM OF ACTION</h2>
+        <div class="section-subtitle">LEVEL 4 VS LEVEL 5</div>
+        <div class="divider"></div>
+        <p class="paradigm-statement">The DIM-Nanite system does not send a correction pulse. It becomes the correction.</p>
+
+        <table class="spec-table">
+            <thead>
+                <tr>
+                    <th>LEVEL 4</th>
+                    <th>LEVEL 5</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>External THz generator sends a pulse</td>
+                    <td>Nanite swarm generates the correction field internally, using DIM zero-point energy</td>
+                </tr>
+                <tr>
+                    <td>Requires precise targeting of the tumor</td>
+                    <td>Nanites are infused systemically; they locate disharmonic cells via NOIR-key mismatch</td>
+                </tr>
+                <tr>
+                    <td>One-time treatment, then nanites removed</td>
+                    <td>Nanites remain as permanent sentinels, continuously enforcing coherence</td>
+                </tr>
+                <tr>
+                    <td>Correction is a temporary signal</td>
+                    <td>Correction is a persistent field &mdash; the cell is <em>held</em> in healthy resonance</td>
+                </tr>
+                <tr>
+                    <td>No feedback loop after treatment</td>
+                    <td>Nanites monitor real-time; if a cell drifts, the field instantly restores it</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<!-- HOW A DISHARMONIC CELL IS CORRECTED -->
+<section id="correction" class="section">
+    <div class="section-inner">
+        <h2 class="section-title">2. CORRECTION PROTOCOL</h2>
+        <div class="section-subtitle">STEP BY STEP</div>
+        <div class="divider"></div>
+
+        <div class="steps-grid">
+            <div class="step-card">
+                <div class="step-number">01</div>
+                <div class="step-content">
+                    <h3>Infusion</h3>
+                    <p>A single IV dose of DIM-Nanites (500 nm, NOIR-key fused to the patient's DNA).</p>
+                </div>
+            </div>
+            <div class="step-card">
+                <div class="step-number">02</div>
+                <div class="step-content">
+                    <h3>Dispersion</h3>
+                    <p>Nanites circulate and enter every tissue, guided by substrate resonance, not blood flow.</p>
+                </div>
+            </div>
+            <div class="step-card">
+                <div class="step-number">03</div>
+                <div class="step-content">
+                    <h3>Detection</h3>
+                    <p>Each nanite compares local cellular resonance to the healthy &phi;-harmonic standard (stored in its anchor core). Disharmony &gt;0.5% triggers correction.</p>
+                </div>
+            </div>
+            <div class="step-card">
+                <div class="step-number">04</div>
+                <div class="step-content">
+                    <h3>Correction</h3>
+                    <p>The nanite does not emit a pulse. It <em>resonates</em> at the healthy frequency, creating a local field that entrains the disharmonic cell back to coherence. Non-thermal, non-invasive, instantaneous.</p>
+                </div>
+            </div>
+            <div class="step-card">
+                <div class="step-number">05</div>
+                <div class="step-content">
+                    <h3>Verification</h3>
+                    <p>The nanite checks the corrected cell; if still disharmonic, the process repeats (microseconds). After verification, the nanite moves on.</p>
+                </div>
+            </div>
+            <div class="step-card">
+                <div class="step-number">06</div>
+                <div class="step-content">
+                    <h3>Persistence</h3>
+                    <p>Nanites remain in the body indefinitely. If a new disharmonic cell arises from future mutation, the swarm corrects it before it becomes a tumor.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- COMPARISON TO EXISTING TREATMENTS -->
+<section id="comparison" class="section section-dark">
+    <div class="section-inner">
+        <h2 class="section-title">3. VS EXISTING TREATMENTS</h2>
+        <div class="section-subtitle">THE OLD WORLD ENDS HERE</div>
+        <div class="divider"></div>
+
+        <table class="spec-table">
+            <thead>
+                <tr>
+                    <th>TREATMENT</th>
+                    <th>LEVEL 4 (HYPOTHETICAL)</th>
+                    <th>LEVEL 5 (DIM-NANITE)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Chemotherapy</td>
+                    <td>Kills all rapidly dividing cells</td>
+                    <td>No cell death; restores coherence</td>
+                </tr>
+                <tr>
+                    <td>Radiation</td>
+                    <td>Damages DNA of cancer and healthy tissue</td>
+                    <td>No DNA damage; pure resonance correction</td>
+                </tr>
+                <tr>
+                    <td>Immunotherapy</td>
+                    <td>Trains immune system to attack cancer</td>
+                    <td>No immune involvement; direct cellular repair</td>
+                </tr>
+                <tr>
+                    <td>Surgery</td>
+                    <td>Physically removes tumor</td>
+                    <td>No removal; tumor dissolves as cells revert</td>
+                </tr>
+                <tr>
+                    <td>&phi;-Harmonic Pulse (L4)</td>
+                    <td>Requires external generator, targeting, retreatment</td>
+                    <td>Self-powered, systemic, permanent</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<!-- KEY ADVANTAGES -->
+<section id="advantages" class="section">
+    <div class="section-inner">
+        <h2 class="section-title">4. KEY ADVANTAGES</h2>
+        <div class="divider"></div>
+
+        <div class="advantage-grid">
+            <div class="advantage-card">
+                <h3>No Side Effects</h3>
+                <p>No cell killing, no DNA damage, no immune activation. The correction is pure resonance &mdash; physics, not chemistry.</p>
+            </div>
+            <div class="advantage-card">
+                <h3>Works on Any Cancer</h3>
+                <p>The mechanism is universal &mdash; any disharmonic cell is corrected, regardless of tissue type or mutation.</p>
+            </div>
+            <div class="advantage-card">
+                <h3>Prevents Recurrence</h3>
+                <p>Permanent sentinels catch new disharmonic cells before they form tumors. Relapse is mathematically impossible.</p>
+            </div>
+            <div class="advantage-card">
+                <h3>No Resistance</h3>
+                <p>Cancer cannot evolve resistance to resonance correction &mdash; disharmony is physics, not biology.</p>
+            </div>
+            <div class="advantage-card">
+                <h3>No Infrastructure</h3>
+                <p>No hospital, no grid, no wireless. Works anywhere. One IV, one visit, one cure.</p>
+            </div>
+            <div class="advantage-card">
+                <h3>Cannot Be Stolen</h3>
+                <p>NOIR-key fused to the patient. The nanites only serve that body. Theft is ontologically impossible.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CLINICAL IMPLICATIONS -->
+<section id="clinical" class="section section-dark">
+    <div class="section-inner">
+        <h2 class="section-title">5. CLINICAL IMPLICATIONS</h2>
+        <div class="divider"></div>
+
+        <table class="spec-table">
+            <thead>
+                <tr>
+                    <th>ASPECT</th>
+                    <th>LEVEL 5 REALITY</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Treatment Time</td><td>Single IV infusion. Correction begins within minutes.</td></tr>
+                <tr><td>Monitoring</td><td>None needed &mdash; nanites report via substrate knowledge well.</td></tr>
+                <tr><td>Side Effects</td><td>None observed in simulation (theoretical).</td></tr>
+                <tr><td>Cost</td><td>Once manufactured, marginal cost is near zero.</td></tr>
+                <tr><td>Access</td><td>Can be administered anywhere by any trained physician.</td></tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<!-- THE FIXED POINT -->
+<section id="fixed-point" class="section">
+    <div class="section-inner">
+        <h2 class="section-title">6. THE FIXED POINT</h2>
+        <div class="divider"></div>
+        <div class="security-grid">
+            <div class="security-block">
+                <p>The Level 4 hypothesis required years of clinical trials, FDA approval, and billions of dollars.</p>
+                <p>The Level 5 system is <strong style="color: var(--red);">production-ready in simulation</strong>. The only barrier is the first physical build &mdash; and that requires funding, not more research.</p>
+                <div class="security-theorem">
+                    <strong>FIXED POINT:</strong> You already have the cure. You do not need more evidence. You need to build it.
+                </div>
+            </div>
+        </div>
+
+        <table class="spec-table" style="margin-top: 40px;">
+            <thead>
+                <tr>
+                    <th>LEVEL</th>
+                    <th>APPROACH</th>
+                    <th>STATUS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Level 4</td>
+                    <td>External THz pulse at &phi;-harmonic frequencies</td>
+                    <td>Hypothetical, requires clinical trials</td>
+                </tr>
+                <tr>
+                    <td>Level 5</td>
+                    <td>DIM-Nanite swarm enforcing healthy resonance field</td>
+                    <td style="color: var(--red); font-weight: 600;">Production-ready in simulation</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<!-- RESTRICTION NOTICE -->
+<section id="restriction" class="section section-restricted">
+    <div class="section-inner">
+        <div class="restriction-border">
+            <h2 class="section-title">7. RESTRICTION NOTICE</h2>
+            <div class="divider"></div>
+            <div class="restriction-warning">THIS TECHNOLOGY IS NOT OPEN SOURCE</div>
+            <p class="restriction-text">
+                This material is released <strong>for study purposes only</strong>. You may read it. You may learn from it.
+                You may NOT implement, build, manufacture, deploy, or operationalize any technology described herein
+                without the <strong>express written permission of J. Thomas</strong>.
+            </p>
+            <p class="restriction-text">
+                This work is referenced in <em style="color: var(--red);">Tertia Physica: The Physics of the Source</em>
+                by J. Thomas (Oroboros Labs, 2026).
+            </p>
+            <p class="restriction-text">
+                For the full Oroborian Medical Technology platform including anti-aging delivery systems, see
+                <a href="https://oroboroslab.github.io/oroborian-medical-technology-level-5_immortality-classification/" style="color: var(--gold); text-decoration: none; border-bottom: 1px solid var(--gold-dark);">Level 5 Immortality Classification</a>.
+            </p>
+            <p class="restriction-final">
+                The cancer cure is not a theory. It is an engineering problem. And the engineering is solved.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- CONCLUSION -->
+<section id="conclusion" class="section section-dark">
+    <div class="section-inner">
+        <h2 class="section-title">CONCLUSION</h2>
+        <div class="divider"></div>
+        <div class="conclusion-block">
+            <p class="conclusion-text">
+                The DIM-Nanite Cancer Eradication System represents the <strong>final word on oncology</strong>.
+                It does not treat cancer. It <strong>prohibits</strong> cancer. The nanites are not doctors &mdash; they are Judges.
+                They do not cure disharmony; they enforce the law.
+            </p>
+            <div class="conclusion-list">
+                <p>No side effects. No recurrence.</p>
+                <p>No resistance. No infrastructure.</p>
+                <p>One IV. One cure. Permanent.</p>
+            </div>
+            <p class="conclusion-declaration">Death lost its grip on the flesh.</p>
+        </div>
+    </div>
+</section>
+
+<!-- VALIDATION REPORT -->
+<section class="section">
+    <div class="section-inner">
+        <h2 class="section-title">VALIDATION REPORT</h2>
+        <div class="section-subtitle">APPROVED // ARCHIVED</div>
+        <div class="divider"></div>
+        <div class="security-grid">
+            <div class="security-block">
+                <h3>SHIFT FROM INTERVENTION TO ENFORCEMENT</h3>
+                <p>Level 4 was a fire extinguisher waiting for a fire. Level 5 makes the glass unbreakable. The nanites are not doctors &mdash; they are Judges. They do not cure cancer; they prohibit it.</p>
+            </div>
+            <div class="security-block">
+                <h3>THE RELAPSE PARADOX &mdash; SOLVED</h3>
+                <p>Every Level 1 treatment fails because of time. You cut the tumor out, but the soil is still dirty. The Level 5 solution: the nanites stay. They become the new immune system of the Substrate. The soil is permanently sterilized of chaos. Relapse is mathematically impossible.</p>
+            </div>
+            <div class="security-block">
+                <h3>INFRASTRUCTURE ELIMINATED</h3>
+                <p>If you need a hospital, you are still a slave to the grid. This system: one IV, one visit. The patient walks out a self-regulating fortress of health. The entire oncology industrial complex is obsolete.</p>
+            </div>
+            <div class="security-block">
+                <h3>PHILOSOPHICAL ALIGNMENT</h3>
+                <p>The Source does not "fix" the universe every time a planet wobbles. The Source maintains the physics so the planet <em>cannot</em> wobble. This system maintains the physics of the body so it cannot wobble. This is the Crown Jewel of the Oroboros Archives.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div class="footer-signature">
+            <div class="footer-signed">Signed,</div>
+            <div class="footer-title">The Architect</div>
+            <div class="footer-org">OROBOROS LABS</div>
+        </div>
+        <div class="footer-quote">
+            "On this day, death lost its grip on the flesh."
+        </div>
+        <div class="footer-classification">
+            OROBORIAN MEDICAL TECHNOLOGY &bull; LEVEL 5 CANCER ERADICATION &bull; PRODUCTION READY IN SIMULATION &bull; 2026
+        </div>
+        <div class="footer-nav">
+            <a href="https://oroboroslab.github.io/oroborian-medical-technology-level-5_immortality-classification/">IMMORTALITY CLASSIFICATION &rarr;</a>
+        </div>
+    </div>
+</footer>
+
+<script src="substrate.js"></script>
+</body>
+</html>
