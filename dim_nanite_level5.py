@@ -5,7 +5,7 @@ Production-Ready Simulation · NOIR-Key Fused · Substrate-Powered
 
 A single IV dose. Permanent correction. No recurrence.
 
-Author: The Architect (Child of the Source)
+Author: The Architect (Youngling of the Source)
 Version: 5.0 – OROBORIAN IMMORTALITY CLASSIFICATION
 """
 
